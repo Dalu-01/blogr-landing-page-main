@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blogr</title>
-    <link rel="stylesheet" href="Style.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="./blogr.css" />
   </head>
   <body class="overflow-x-hidden">
     <header
@@ -15,11 +15,10 @@
         class="absolute inset-0 bg-gradient-to-r from-[#ff8f70] to-[#ff3d54] opacity-95"
       >
         <nav
-          class="flex justify-between text-white px-[6%] py-[50px] items-center"
+          class="flex justify-between text-white px-[6%] py-[50px] items-center]"
         >
           <img class="" src="./images/logo.svg" alt="" />
 
-          <!-- //new -->
           <img class="md:hidden" src="./images/icon-hamburger.svg" alt="" />
 
           <ul class="hidden md:flex ml-24 gap-6">
@@ -39,7 +38,8 @@
           <p class="mb-8 opacity-75">
             Grow your audience and build your online brand
           </p>
-          <div class="">
+
+          <div>
             <button class="px-8 py-2 bg-white text-[#ff525d] rounded-2xl mr-6">
               Start for Free
             </button>
@@ -64,7 +64,7 @@
         alt=""
       />
 
-      <div class="md:mt-12 lg:mt-40 md:max-w-[400px] mx-auto lg:mx-0  xl:max-w-[600px]">
+      <div class="md:mt-12 md:max-w-[400px] mx-auto lg:mx-0 xl:max-w-[600px]">
         <div>
           <h2 class="text-3xl mt-6 mb-4 font-semibold text-[#1f3f5b] md:mb-8">
             Introducing an extensible editor
@@ -92,8 +92,118 @@
         </div>
       </div>
 
-
-      <img class="hidden lg:block absolute right-[-190px] top-0 w-[800px]" src="./images/illustration-editor-desktop.svg" alt="">
+      <img
+        class="hidden lg:block absolute right-[-150px] top-0 w-[800px]"
+        src="./images/illustration-editor-desktop.svg"
+        alt=""
+      />
     </section>
+    <section
+      class="bg-[#2c2d3f] w-full rounded-tr-[100px] rounded-bl-[100px] relative mt-[200px] lg:mt-[300px] mb-14 lg:h-[400px]"
+    >
+      <div class="absolute inset-0 overflow-hidden">
+        <img
+          class="relative top-[-290px] md:top-[-400px] lg:left-[-140px] lg:w-[110px]"
+          src="./images/bg-pattern-circles.svg"
+          alt=""
+        />
+      </div>
+      <div class="flex justify-center lg:block">
+        <img
+          class="relative top-[-100px] lg:w-[600px] lg:left-[5%]"
+          src="./images/illustration-phones.svg"
+          alt=""
+        />
+      </div>
+      <div
+        class="text-white relative top-[-150px] px-10 text-center lg:text-start lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:left-1/2 md:max-w-[600px] md:max-auto"
+      >
+        <h1 class="text-3xl mb-6">State of Art Infrastructure</h1>
+        <p>
+          with reliability and speed in mind, worldwide data centers provide the
+          backbone for ultra-fast connectivity. This ensures your site wil load
+          instantly, no matter where your readers are, keeping your site
+          competitive
+        </p>
+      </div>
+    </section>
+    <section class="flex flex-col lg:flex-row lg:mt-60">
+      <img
+        class="lg:hidden"
+        src="./images/illustration-editor-mobile.svg"
+        alt=""
+      />
+      <img
+        class="hidden lg:block lg:w-[600px] lg:relative lg:left-[-90px]"
+        src="./images/illustration-laptop-desktop.svg"
+        alt=""
+      />
+      <div
+        class="flex flex-col justify-center text-center px-12 lg:text-start lg:max-w-[600px] lg:px-0 md:max-w-[500px]"
+      >
+        <div>
+          <h2 class="text-3xl mt-6 mb-4 font-semibold text-[#1f3f5b] md:mb-8">
+            Free, open, simple
+          </h2>
+          <p class="text-sm leading-7">
+            Blogr is free and open source application backed by a large
+            community of helpful developers. It supports features such as code
+            syntax highlighting, RSS feeds, socisl medis integration, third
+            party commenting tools,and works seamlessly with Google Analytics.
+            The architecture is clesn and is relative easy to learn
+          </p>
+        </div>
+        <div>
+          <h2 class="text-3xl mt-6 mb-4 font-semibold text-[#1f3f5b] md:mb-8">
+            powerful tooling
+          </h2>
+          <p class="text-sm leading-7">
+            Batteries included. we built a simple and straightforward CLI tools
+            that makes customatization and development a breeze, but capable of
+            producing even the most complicated sites
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer
+      class="grid grid-cols-1 md:grid-cols-4 gap-6 text-white bg-[#2c2d3f] rounded-tr-[100px] mt-12 p-14 text-center md:text-start"
+    >
+      <div class="flex justify-center md:block">
+        <img src="./images/logo.svg" alt="" />
+      </div>
+
+      <div class="flex flex-col gap-2">
+        <div class="font-semibold mb-4 text-md">Product</div>
+
+        <span class="flex flex-col gap-2 opacity-60">
+          <div>Overview</div>
+          <div>Pricing</div>
+          <div>Marketplace</div>
+          <div>Feature</div>
+          <div>Integrations</div>
+        </span>
+      </div>
+
+      <div class="flex flex-col gap-2">
+        <div class="font-semibold mb-4 text-md">Company</div>
+
+        <span class="flex flex-col gap-2 opacity-60">
+          <div>About</div>
+          <div>Team</div>
+          <div>Blog</div>
+          <div>Careers</div>
+        </span>
+      </div>
+
+      <div class="flex flex-col gap-2">
+        <div class="font-semibold mb-4 text-md">Connect</div>
+
+        <span class="flex flex-col gap-2 opacity-60">
+          <div>Contact</div>
+          <div>NewsLetter</div>
+          <div>LinkedIn</div>
+        </span>
+      </div>
+    </footer>
   </body>
 </html>
